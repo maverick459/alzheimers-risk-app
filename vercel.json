@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "buildCommand": "python setup.py",
+  "devCommand": "run_app.bat",
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "functions": {
+    "main.py": {
+      "runtime": "vercel-python@0.9.1",
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "FLASK_ENV": "production"
+  }
+}
