@@ -4,6 +4,13 @@
   "buildCommand": "",
   "devCommand": "run_app.bat",
   "cleanUrls": true,
+  "functions": {
+    "app.py": {
+      "runtime": "vercel-python@9.8.1",
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
   "env": {
     "FLASK_ENV": "production"
   }
