@@ -25,5 +25,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update README date"
-            git push
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/maverick459/alzheimers-risk-app.git
+            git push origin main
           fi
