@@ -205,7 +205,7 @@ The application uses a weighted scoring system based on medical research:
 
 This project is for educational and informational purposes only. Not intended for medical diagnosis.
 
-## Medical Disclaimer
+## Alzheimer Risk App
 
 This assessment tool is for informational purposes only and should not replace professional medical consultation. The risk scores are based on population studies and may not accurately predict individual risk. Always consult with qualified healthcare professionals for medical advice, diagnosis, and treatment decisions.
 
